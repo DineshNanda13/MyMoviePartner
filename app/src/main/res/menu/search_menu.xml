@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mymoviepartner;">
+
+
+    <item
+        android:id="@+id/action_search1"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="100"
+        android:theme="@style/WhiteCursorSearchView"
+        android:title="search"
+        app:iconifiedByDefault="false"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        ></item>
+
+</menu>
